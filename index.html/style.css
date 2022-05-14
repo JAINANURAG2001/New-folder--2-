@@ -1,0 +1,124 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet"> */
+
+/* reset css */
+  body{
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     background: url('images/young-fitness-man-studio.jpg');
+     font-family: 'Baloo Bhai 2';
+    
+     /* height: 555px;  */
+ }
+ .left{
+ position: absolute;
+ left: 67px;
+ top: 45px;
+ 
+ display: inline-block;
+ font-size: 105px;
+ /* border: 2px solid rgb(201, 158, 40); */
+ }
+ .mid{
+   
+ /* padding: 25px 25px; */
+ display: block;
+ width: 37%;
+ margin: 45px auto;
+ font-size: 78px;
+ /* border: 2px solid rgb(174, 40, 201); */
+ }
+ 
+ .right{
+ position: absolute;
+ right: 150px;
+ top: 45px;
+ 
+ display: inline-block;
+ /* border: 2px solid rgb(199, 61, 19); */
+ font-size: 105px;
+ 
+ }
+ .navbar{
+ /* border: 2px solid green; */
+ display: flex;
+ list-style: none;
+ margin: 15px;
+ flex-wrap: wrap;
+ }
+ 
+ .navbarli{
+ display: inline block;
+ 
+ 
+ }
+ 
+ .navbar li a{
+ margin: 2px 94px;
+ text-decoration: none;
+ color: white;
+ display: inline-block;
+ }
+ 
+ 
+ 
+ .navbar li a:hover{
+ text-decoration: underline;
+ color:gray ;
+ }
+ 
+ .left img{
+ width: 250px;
+ filter: invert(100%);
+ 
+ }
+ .left  span{
+ color: orange;
+ }
+ .btn{
+ padding: 22px 27px;
+ font-size: 78px;
+ margin: 0px 35px;
+ color: white ;
+ background-color: black;
+ border: 2px solid gray;
+ border-radius: 53px;
+ cursor: pointer;
+ font-family: 'Baloo Bhai 2';
+ 
+ }
+ 
+ .btn:hover{
+ background-color: gray;
+ }
+ .container{
+ border: 3px solid rgb(238, 195, 229)  ;
+ font-size: 105px;
+ margin: 319px 65px;
+ padding: 138px 82px;
+ border-radius: 135px;
+ 
+ width:29%;
+ }
+ 
+ .form-group input{
+ font-size: 78px;
+ font-family: 'Baloo Bhai 2';
+ 
+ display: block;
+ justify-content: center;
+ /* width: 500px; */
+ padding: 1px 165px;
+ margin: 47px auto;
+ border: 4px solid rgb(180, 241, 129);
+ border-radius: 53px;
+ 
+ }
+ .show{
+ font-size: 102px;
+ border: 4px solid red   ;
+ }
+ 
+ .active{
+    text-decoration: none;
+ }
